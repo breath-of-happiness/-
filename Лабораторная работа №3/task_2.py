@@ -1,4 +1,4 @@
-def find_common_participants(list_one, list_two, sep):
+def find_common_participants(list_one, list_two, sep = ","):
     list_one = list_one.split(sep)
     list_two = list_two.split(sep)
     common_words = list(set(list_one).intersection(list_two))
